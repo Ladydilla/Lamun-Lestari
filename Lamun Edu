@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gambar 2: LAMUN EDU</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        
+        .container {
+            text-align: center;
+        }
+        
+        .figure-title {
+            color: white;
+            font-size: 22px;
+            font-weight: bold;
+            margin-bottom: 25px;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        }
+        
+        .mobile-frame {
+            width: 360px;
+            height: 750px;
+            margin: 0 auto;
+            background: #1a1a1a;
+            border-radius: 40px;
+            padding: 14px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+        }
+        
+        .mobile-screen {
+            background: white;
+            border-radius: 30px;
+            overflow: hidden;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .mobile-header {
+            background: linear-gradient(135deg, #0077BE, #00C9FF);
+            color: white;
+            padding: 18px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-shrink: 0;
+        }
+        
+        .mobile-title {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        
+        .mobile-content {
+            padding: 18px;
+            background: #fafafa;
+            overflow-y: auto;
+            flex-grow: 1;
+        }
+        
+        .module-card {
+            background: white;
+            border-radius: 12px;
+            padding: 16px;
+            margin-bottom: 14px;
+            border-left: 5px solid #0077BE;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+        }
+        
+        .module-icon {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        
+        .module-title {
+            font-weight: bold;
+            color: #0077BE;
+            margin-bottom: 8px;
+            font-size: 15px;
+        }
+        
+        .progress-bar {
+            background: #e0e0e0;
+            height: 7px;
+            border-radius: 4px;
+            overflow: hidden;
+            margin-top: 10px;
+        }
+        
+        .progress-fill {
+            background: linear-gradient(90deg, #0077BE, #00C9FF);
+            height: 100%;
+            border-radius: 4px;
+        }
+        
+        .action-btn {
+            background: linear-gradient(135deg, #0077BE, #00C9FF);
+            color: white;
+            border: none;
+            padding: 11px 22px;
+            border-radius: 22px;
+            font-size: 13px;
+            font-weight: bold;
+            cursor: pointer;
+            width: 100%;
+            margin-top: 10px;
+            box-shadow: 0 4px 12px rgba(0,119,190,0.3);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="figure-title">Gambar 2: Mockup Fitur LAMUN EDU</div>
+        <div class="mobile-frame">
+            <div class="mobile-screen">
+                <div class="mobile-header">
+                    <div style="font-size: 20px;">☰</div>
+                    <div class="mobile-title">📚 LAMUN EDU</div>
+                    <div style="font-size: 20px;">🔔</div>
+                </div>
+                <div class="mobile-content">
+                    <div class="module-card">
+                        <div class="module-icon">🌊</div>
+                        <div class="module-title">Apa itu Lamun?</div>
+                        <div style="font-size: 13px; color: #666;">Pengenalan ekosistem lamun dan perannya dalam blue carbon</div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 60%;"></div>
+                        </div>
+                        <div style="font-size: 11px; color: #999; margin-top: 5px;">Progress: 60%</div>
+                    </div>
+                    
+                    <div class="module-card">
+                        <div class="module-icon">🌱</div>
+                        <div class="module-title">15 Spesies di Indonesia</div>
+                        <div style="font-size: 13px; color: #666;">Identifikasi spesies lamun lokal dari Sabang sampai Merauke</div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 100%;"></div>
+                        </div>
+                        <div style="font-size: 11px; color: #28a745; margin-top: 5px;">✓ Selesai - 100%</div>
+                    </div>
+                    
+                    <div class="module-card">
+                        <div class="module-icon">🎥</div>
+                        <div class="module-title">Video: Lamun & Karbon Biru</div>
+                        <div style="font-size: 13px; color: #666;">Penyerapan karbon 5-6 ton/km²/tahun, 35x lebih efektif dari hutan tropis</div>
+                        <button class="action-btn">▶️ Tonton Video (5:24)</button>
+                    </div>
+                    
+                    <div class="module-card">
+                        <div class="module-icon">🎯</div>
+                        <div class="module-title">Kuis Interaktif</div>
+                        <div style="font-size: 13px; color: #666;">Uji pemahaman Anda tentang lamun dan SDGs 14</div>
+                        <button class="action-btn">🚀 Mulai Kuis</button>
+                    </div>
+                    
+                    <div class="module-card">
+                        <div class="module-icon">🌐</div>
+                        <div class="module-title">Tur Virtual 360°</div>
+                        <div style="font-size: 13px; color: #666;">Jelajahi padang lamun Raja Ampat secara virtual</div>
+                        <button class="action-btn">🎮 Mulai Tur Virtual</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
